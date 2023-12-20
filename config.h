@@ -9,6 +9,14 @@ static char *font = "MesloLGM Nerd Font Mono:pixelsize=18:antialias=true:autohin
 static int borderpx = 2;
 
 /*
+ * background image
+ * expects farbfeld format
+ * pseudo transparency fixes coordinates to the screen origin
+ */
+static const char *bgfile = "/home/jim/Documents/Wallpapers/ATAT.ff";
+static const int pseudotransparency = 0;
+
+/*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
