@@ -5,6 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+static const int resizehints = 0;
 static char *font = "MesloLGM Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
